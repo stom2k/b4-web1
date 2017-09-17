@@ -1,0 +1,338 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.block-number {
+    text-align: center;
+}
+
+.block-icon i.fa {
+	width: 36px;
+	height: 36px;
+	padding-top: 8px;
+	cursor: pointer;
+}
+
+.teacher-card {
+    width: 100%;
+    position: relative;
+    height: 184px;
+}
+
+.block {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background-color: inherit;
+    height: 100%;
+}
+
+.block-icon {
+    width: 10%;
+}
+
+.block-content {
+    width: 50%;
+}
+
+.block-images {
+    width: 40%;
+}
+p {
+	font-size: 15px;
+}
+
+.content {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.number .content {
+	z-index: 4;
+}
+
+.number .opacity {
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#parall .parall-height {
+    height: 100%;
+}
+
+a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+
+#activities a {
+    color: #A7A7A7;
+}
+
+#activities p, {
+    color: #B2B2B2;
+    
+}
+
+#activities h4 {
+    font-size: 16px;
+    color: #868585;
+    
+}
+
+.line {
+    width: 80px;
+    height: 5px;
+    border-radius: 2px;
+}
+
+#teacher .line {
+    width: 30px;
+    height: 3px;
+}
+
+.line-small {
+    width: 30px;
+    height: 3px;
+    border: 5px;
+}
+
+#activities h1, .event h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#activities h3, .event h3 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#activities h1, #activities h3, .event h1, .event h3 {
+    letter-spacing: 3px;
+}
+
+#activities {
+    margin-top: 70px;
+}
+
+.submenu {
+    width: 100%;
+    margin-top: -40px;
+}
+
+.slide {
+    width: 100%;
+    max-height: 813px;
+}
+
+.slide img {
+	overflow: hidden;
+	width: 100%;
+	max-height: 815px;
+}
+
+.bg_gradian {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%);
+}
+
+.line2 li.nav-item a.navlink {
+    color: #E5E5E5;
+    
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.line2 li.nav-item.active a.navlink {
+    color: #9B9B9B;
+}
+
+a.navlink:after {
+    content: '\ea76';
+    font-family: 'fontello';
+    margin-left: 20px;
+    font-size: 5px;
+}
+
+.line2 li.nav-item {
+    padding: 8px;
+}
+
+.line1 .nav-item.nav-link {
+    color: #E5E6E5;
+    margin-bottom: 0;
+    font-size: 12px;
+    
+}
+
+.line1 .nav-item.nav-link:after {
+    content: '\f111';
+    font-family: FontAweome;
+    margin-left: 17px;
+    font-size: 5px;
+    vertical-align: middle;
+}
+
+.navbar.fixed-top .line2 {
+    background: #FFFFFF;
+    color: #D4D4D4;
+}
+
+.navbar.fixed-top .line1 {
+    background: #4D5056;
+    font-size: 14px;
+}
+
+.submenu a.item {
+    width: 100%;
+    display: block;
+    height: 110px;
+    font-size: 30px;
+    padding: 30px 0;
+    color: white;
+}
+
+.bg-lightgray {
+	background-color: #F9F9F9;
+}
+
+.info a:not([href]):not([tabindex]) {
+    cursor: pointer;
+}
+
+.bg-green {
+    background-color: #6FC191;
+}
+
+.bg-red {
+    background-color: #EC774B;
+}
+
+.bg-yellow {
+    background-color: #EDBF47;
+}
+
+.bg-blue {
+    background-color: #74CEE4;
+}
+
+.bg-violet {
+	background-color: #C389CE;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
+.bg-dark {
+	background-color: #495052;
+}
+
+.bg-darkgreen {
+	background-color: #6AB78A;
+}
+
+.bg-darkgray {
+	background-color: #404547;
+}
+
+.bg-darkblue {
+	background-color: #6FC4D9;
+}
+
+.bg-darkred {
+	background-color: #DF764E;
+}
+
+.bg-darkyellow {
+	background-color: #E0B84E;
+}
+
+.bg-darkviolet {
+	background-color: #AC7AB5;
+}
+
+.cl-white {
+	color: #ffffff;
+}
+
+.cl-green {
+	color: #6FC191;
+}
+
+.cl-red {
+	color: #E16C6C;
+}
+.teacher-card p {margin-bottom: 6px;}
+
+.teacher-card h5 {
+    font-size: 15px;
+}
+
+.teacher-card h4 {
+    font-size: 18px;
+}
+
+.card .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.card .date:hover,.card .date:active,.card .date:visited {
+    color: #ffffff;
+}
+
+.card .card-block a:hover,.card .card-block a:visited,.card .card-block a:active,.info a:hover,.info a:visited,.info a:active,.tag a:hover,.tag a:active,.tag a:visited{
+	color: white;
+}
+
+.cl-gray {
+	color: #A4A4A4;
+}
+
+.number {
+	width: 100%;	
+	position: relative;
+}
+
+#parall {
+	background: url('ing/desk-color.jpg') 50% 80px / cover fixed;
+	height: 200px;
+}
+
+#firstday {
+	background: url('ing/bg-kid-2.jpg') 50% -86px / cover fixed;
+	height: 350px;
+}
+
+#course {
+	background: url('ing/bg-kid-2.jpg') 50% -86px / cover fixed;
+	height: 200px;
+}
+
+#course span {
+    font-size: 40px;
+}
+
+.icon-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-group i {
+	width: 32px;
+	height: 32px;
+}
